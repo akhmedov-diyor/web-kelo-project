@@ -16,6 +16,8 @@ body {
 
 :root {
   --blue: #002e6d;
+  --orange: #f58b6e;
+  --grey: #595a5c;
 }
 
 ul {
@@ -263,7 +265,7 @@ a {
   font-size: 30px;
   font-weight: 400;
   color: var(--blue);
-  padding-top: 10rem;
+  padding-top: 8rem;
   margin-left: 6.5rem;
   margin-bottom: 50px;
 }
@@ -338,7 +340,7 @@ a {
   font-size: 30px;
   font-weight: 400;
   color: var(--blue);
-  padding-top: 3.5rem;
+  padding-top: 6rem;
   margin-left: 6.5rem;
   margin-bottom: 80px;
 }
@@ -419,4 +421,116 @@ a {
   color: #595a5c;
 }
 
-/* !USAGE STYLE FINISHED */ ;
+/* !USAGE STYLE FINISHED */
+
+/* !WORK STYLE STARTED */
+
+.work__section-wrapper {
+  position: relative;
+  padding: 50px 0;
+}
+
+.work__section-title {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--blue);
+  padding-top: 7rem;
+  margin-left: 6.5rem;
+  margin-bottom: 80px;
+}
+
+.work__section-title::before {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  content: "";
+  width: 170px;
+  height: 150px;
+  background-image: url(/img/title-before.png);
+  background-repeat: no-repeat;
+  background-size: 170px 150px;
+}
+
+.work__section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.work__content-title {
+  width: 100%;
+  max-width: 600px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--orange);
+  border-top: 2px solid var(--orange);
+  border-bottom: 2px solid var(--orange);
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.work__section-desc {
+  width: 100%;
+  max-width: 600px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--blue);
+  margin-bottom: 30px;
+}
+
+.work__section-text {
+  width: 100%;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--grey);
+  margin-bottom: 30px;
+}
+
+.work__section-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 35px;
+}
+
+.work__info-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #5eb3e4;
+}
+
+.work__info-name::after {
+  display: block;
+  content: "";
+  width: 17.52px;
+  height: 47px;
+  background-image: url(https://www.kelocell.com/images/dual_action_arrow.png);
+  background-repeat: no-repeat;
+  background-size: 17.52px 47px;
+  background-position: center;
+  margin-top: 5px;
+}
+
+.work__info-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #002e6d;
+  line-height: 28px;
+}
+
+.work__section-img {
+  width: 100%;
+  max-width: 600px;
+  height: 690px;
+}
+
+/* !WORK STYLE FINISHED */ ;
