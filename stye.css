@@ -622,4 +622,110 @@ a {
   height: 566px;
 }
 
-/* !INFLAMMATION STYLE FINISHED */ ;
+/* !INFLAMMATION STYLE FINISHED */
+
+/* !FOOTER STYLE STARTED */
+
+footer {
+  background-color: #7d7987;
+  padding: 50px 0;
+}
+
+.footer__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section-wrapper i {
+  font-size: 35px;
+  color: #fff;
+}
+
+.footer__section-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__section-contact i {
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.footer__section-number {
+  display: flex;
+}
+
+.footer__section-number i {
+  font-size: 26px;
+  margin-right: 10px;
+}
+
+.footer__number-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__number-box::before {
+  position: absolute;
+  top: 5px;
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-image: url(https://www.kelocell.com/images/footer_phone.png);
+  background-size: 26px 26px;
+}
+
+.footer__section-email {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer__section-link {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 2.5rem;
+}
+
+.footer__section-location {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.footer__section-country {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.footer__section-country::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 15px;
+  background-image: url(https://www.kelocell.com/images/german_flag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 15px;
+  margin-left: 5px;
+}
+
+.footer__section-img {
+  width: 134px;
+  height: 80px;
+}
+
+.footer__section-icons {
+  width: 100%;
+  max-width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* !FOOTER STYLE FINISHED */ ;
