@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 :root {
   --blue: #002e6d;
 }
@@ -31,6 +35,7 @@ a {
   position: sticky;
   top: 0;
   background-color: #fff;
+  z-index: 10;
 }
 
 .header__section-wrapper {
@@ -42,7 +47,6 @@ a {
 .header-logo {
   width: 140px;
   height: 33px;
-  margin-right: 44px;
 }
 
 .header__nav-item {
@@ -50,7 +54,6 @@ a {
 }
 
 .header__nav-link {
-  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: var(--blue);
@@ -73,10 +76,73 @@ a {
 /* !HERO STYLE STARTED */
 .hero__section {
   width: 100%;
-  height: 100vh;
-  background-image: url(https://www.kelocell.com/images/products/biogel/banner_KCBiogel_desktop.png);
+  height: 86vh;
+  background-image: url(/img/hero.png);
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
 }
 /* !HERO STYLE FINISHED */
+
+/* !KELO STYLE STARTED */
+
+.kelo__section {
+  background-image: url(https://www.kelocell.com/images/home_technology_bg.png);
+  background-size: contain;
+  background-position: top center;
+  background-color: rgba(94, 179, 228, 0.1);
+}
+
+.kelo__section-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.site-title {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--blue);
+  padding-top: 7rem;
+  margin-left: 6.5rem;
+  margin-bottom: 160px;
+}
+
+.site-title::before {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: inline-block;
+  content: "";
+  background-image: url(https://www.kelocell.com/images/section_title.png);
+  width: 170px;
+  height: 150px;
+  background-size: 170px 150px;
+}
+
+.kelo__section-title {
+  width: 100%;
+  max-width: 420px;
+  font-size: 30px;
+  color: var(--blue);
+  margin-bottom: 25px;
+}
+
+.kelo__section-desc {
+  width: 100%;
+  max-width: 420px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #595a5c;
+  line-height: 28px;
+  margin-bottom: 90px;
+}
+
+.kelo__section-img {
+  width: 566px;
+  height: 600px;
+}
+
+/* !KELO STYLE FINISHED */ ;
