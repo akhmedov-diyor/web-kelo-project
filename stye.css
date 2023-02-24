@@ -533,4 +533,55 @@ a {
   height: 690px;
 }
 
-/* !WORK STYLE FINISHED */ ;
+/* !WORK STYLE FINISHED */
+
+/* !HYDRATION STYLE STARTED */
+
+.hydration__section {
+  padding: 30px 0;
+  background-color: rgb(85 184 222 / 20%);
+}
+
+.hydration__section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hydration__section-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #55b8de;
+}
+
+.hydration__section-tag {
+  font-size: 20px;
+  font-weight: 30px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.hydration__section-subtitle {
+  width: 100%;
+  max-width: 478px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--blue);
+}
+
+.hydration__section-desc {
+  width: 100%;
+  max-width: 478px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.hydration__section-img {
+  width: 600px;
+  height: 566px;
+}
+
+/* !HYDRATION STYLE FINISHED */ ;
