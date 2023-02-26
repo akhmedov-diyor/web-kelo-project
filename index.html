@@ -9,7 +9,8 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="stye.css" />
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/stye.css" />
   </head>
   <body>
     <!--? HEADER SECTION STARTED -->
@@ -25,19 +26,29 @@
               height="33"
             />
           </a>
-          <nav class="header-nav">
+          <nav class="header__section-nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
                 <a href="#about-product" class="header__nav-link">
                   Mahsulot haqida
                 </a>
+              </li>
+              <li class="header__nav-item">
                 <a href="#choose" class="header__nav-link">
                   Nega aynan Kelo.Cell
                 </a>
+              </li>
+              <li class="header__nav-item">
                 <a href="#usage" class="header__nav-link">Qo'llash</a>
+              </li>
+              <li class="header__nav-item">
                 <a href="#work" class="header__nav-link">O'ziga xos tomoni</a>
+              </li>
+              
+              <li class="header__nav-item">
                 <a href="#contact" class="header__nav-link">Aloqa</a>
               </li>
+
             </ul>
           </nav>
           <div class="header__section-icons">
@@ -48,6 +59,11 @@
               <i class="bx bxl-instagram"></i>
             </a>
           </div>
+          <div class="hamburger">
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+            <div class="hamburger-bar"></div>
+          </div>
         </div>
       </div>
     </header>
@@ -56,7 +72,11 @@
     <!-- ! MAIN SECTION STARTED -->
     <main class="main-section">
       <!-- ?HERO SECTION STARTED -->
-      <section class="hero__section"></section>
+      <section class="hero__section">
+          <img class="hero__section-img"
+          src="/img/hero.png"
+          alt="hero section's banner img">
+      </section>
       <!-- ?HERO SECTION FINISHED -->
 
       <!-- ?KELO SECTION STARTED -->
@@ -368,7 +388,7 @@
     <!-- ! MAIN SECTION FINISHED -->
 
     <!-- ! FOOTER SECTION STARTED -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container">
         <div class="footer__section-wrapper">
           <div class="footer__section-start">
@@ -413,5 +433,7 @@
       </div>
     </footer>
     <!-- ! FOOTER SECTION FINISHED -->
+
+    <script src="/script.js"></script>
   </body>
 </html>
