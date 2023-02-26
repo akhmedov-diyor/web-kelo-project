@@ -224,7 +224,7 @@ a {
 }
 
 .kelo__section-img {
-  width: 566px;
+  width: 100%;
   height: 600px;
 }
 
@@ -260,6 +260,12 @@ a {
   margin-bottom: 20px;
 }
 
+.kelo__end-img {
+  width: 100%;
+  max-width: 415px;
+  margin-right: 30px;
+}
+
 /* *KELO MEDIA SECTION*/
 @media screen and (max-width: 1150px) {
   .site-title {
@@ -270,7 +276,8 @@ a {
 @media screen and (max-width: 852px) {
   .kelo__section-wrapper {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 
   .site-title {
@@ -290,7 +297,30 @@ a {
   .kelo__section-img {
     max-width: 400px;
     height: 424px;
-    margin: 0 193px;
+  }
+
+  .kelo__end-img {
+    max-width: 255px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .kelo__end-wrapper {
+    flex-direction: column;
+  }
+
+  .kelo__end-img {
+    max-width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 380px) {
+    .kelo__end-img {
+      max-width: 313px;
+      height: 308px;
+    }
   }
 }
 
@@ -349,6 +379,12 @@ a {
   height: 16px;
   background-image: url(https://www.kelocell.com/images/about_why_kelo_cell_topic.png);
   margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .choose__section {
+    background-color: #fff;
+  }
 }
 
 /* !CHOOSE STYLE FINISHED */
@@ -418,7 +454,7 @@ a {
   font-size: 18px;
   color: #fff;
   background-color: #5eb3e4;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
   transition: all 0.2s ease;
@@ -451,8 +487,28 @@ a {
     margin-bottom: 50px;
   }
 
-  .size__section-img {
-    margin: 70px 195px 0;
+  .size__img-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .size__section-title {
+    max-width: 250px;
+  }
+
+  .size__section-desc {
+    font-size: 20px;
+  }
+
+  .size__product-link {
+    width: 100%;
+    max-width: 410px;
+    font-size: 10px;
+    padding: 10px 10px;
   }
 }
 
@@ -495,7 +551,7 @@ a {
 
 .usage__section-name {
   width: 100%;
-  max-width: 540px;
+  max-width: 500px;
   font-size: 30px;
   font-weight: 600;
   line-height: 36px;
@@ -528,7 +584,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 85px;
+  width: 100%;
+  max-width: 85px;
   height: 85px;
   font-size: 18px;
   font-weight: 600;
@@ -555,6 +612,22 @@ a {
   font-weight: 400;
   line-height: 24px;
   color: #595a5c;
+}
+
+@media screen and (max-width: 700px) {
+  .usage__section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .usage__section-title {
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+
+  .usage__section-desc {
+    margin-bottom: 30px;
+  }
 }
 
 /* !USAGE STYLE FINISHED */
@@ -669,6 +742,32 @@ a {
   height: 690px;
 }
 
+/* *WORK RESPONSIVE STARTED */
+@media screen and (max-width: 500px) {
+  .work__section-info {
+    flex-direction: column;
+  }
+
+  .work__section-text {
+    margin-bottom: 40px;
+  }
+
+  .work__info-start {
+    margin-bottom: 40px;
+  }
+
+  .work__info-end {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .work__section-img {
+    max-width: 316px;
+    height: 362px;
+  }
+}
+
 /* !WORK STYLE FINISHED */
 
 /* !HYDRATION STYLE STARTED */
@@ -720,6 +819,35 @@ a {
   height: 566px;
 }
 
+/* *HYDRATION ADAPTIVE STARTED */
+
+@media screen and (max-width: 940px) {
+  .hydration__section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hydration__section-tag {
+    margin-bottom: 30px;
+  }
+
+  .hydration__section-subtitle {
+    max-width: 600px;
+  }
+
+  .hydration__section-img {
+    max-width: 400px;
+    height: 377px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hydration__section-img {
+    max-width: 320px;
+    height: 300px;
+  }
+}
+
 /* !HYDRATION STYLE FINISHED */
 
 /* !INFLAMMATION STYLE STARTED */
@@ -756,6 +884,30 @@ a {
 .inflammation__section-img {
   width: 600;
   height: 566px;
+}
+
+/* *INFLAMMATION ADAPTIVE STARTED */
+@media screen and (max-width: 940px) {
+  .inflammation__section-wrapper {
+    flex-direction: column;
+  }
+
+  .inflammation__section-content {
+    margin-bottom: 30px;
+  }
+
+  .inflammation__section-img {
+    max-width: 400px;
+    height: 377px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 380px) {
+    .inflammation__section-img {
+      max-width: 320px;
+      height: 300px;
+    }
+  }
 }
 
 /* !INFLAMMATION STYLE FINISHED */
@@ -862,6 +1014,34 @@ footer {
   max-width: 130px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__section-contact {
+    margin-bottom: 20px;
+  }
+
+  .footer__number-box {
+    margin-bottom: 20px;
+  }
+
+  .footer__section-middle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer__section-country {
+    margin-left: 3.5rem;
+  }
+
+  .footer__section-img {
+    margin-bottom: 30px;
+  }
 }
 
 /* !FOOTER STYLE FINISHED */ ;
